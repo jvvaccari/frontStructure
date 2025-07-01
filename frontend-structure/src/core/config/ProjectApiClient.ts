@@ -1,4 +1,4 @@
-import { ApiClient } from './ApiClient';
+import { ApiClient } from '../../shared/api/ApiClient';
 
 export class ExecucaoPowerApiClient<T = unknown, D = unknown> extends ApiClient<T, D> {
     constructor() {

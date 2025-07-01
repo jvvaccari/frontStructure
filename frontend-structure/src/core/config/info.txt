@@ -1,1 +1,13 @@
 Arquivos de configurações do projeto
+
+| Arquivo          | Função                                                           |
+| ---------------- | ---------------------------------------------------------------- |
+| `env.ts`         | Variáveis de ambiente tipadas, ex: `API_URL`, `VERSION`, etc.    |
+| `axios.ts`       | Instância/configuração global do Axios (headers, interceptors).  |
+| `theme.ts`       | Configuração de tema (ex: cores do Tailwind ou MUI).             |
+| `i18n.ts`        | Inicialização e configuração de tradução (`react-i18next`, etc). |
+| `routes.ts`      | Rotas globais (ex: enum de rotas ou objetos de paths).           |
+| `constants.ts`   | Constantes globais (ex: delays, limites, masks).                 |
+| `date.ts`        | Configuração do `dayjs` ou `date-fns` (locale, timezone).        |
+| `validation.ts`  | Config global de validação com `Yup` ou `Zod`.                   |
+| `queryClient.ts` | Instância do `React Query` ou `TanStack Query`.                  |
